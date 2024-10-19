@@ -3,7 +3,7 @@ from typing import List
 
 HYPEN_E_DOT = "-e ."
 
-def get_requirments(file_path:str)->list[str]:
+def get_requirments(file_path:str)->List[str]:
 
     " this function will return the list of requriments"
     
