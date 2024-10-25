@@ -40,3 +40,62 @@ project_root/
 * Backend: Flask, Python
 * Machine Learning Models:
 * Random Forest, Decision Tree, Gradient Boosting, XGBoost, CatBoost, and AdaBoost
+
+**📸 Screenshots**
+
+![Home Page Screenshot](Images/Before.png)
+
+![Prediction Page](images/after.png)
+
+**📦 Getting Started**
+
+**Prerequisites**
+* Install Python >= 3.7
+* Install Docker (optional, for containerized deployment)
+
+**Installation**
+
+* 1) Clone the repo:
+      git clone https://github.com/yourusername/student-performance-prediction.git
+      cd student-performance-prediction
+
+* 2) Install dependencies:
+     pip install -r requirements.txt
+
+* 3) Run the app:
+     python app.
+     
+**🎛️ Model Training and Hyperparameter Tuning**
+
+Run model training with hyperparameter tuning by configuring parameters in train_pipeline.py. This setup uses multiple algorithms (e.g., n_estimators for Random Forest) for optimized performance.
+
+from sklearn.model_selection import GridSearchCV
+
+param_grid = {
+    'RandomForestRegressor': {
+        'n_estimators': [100, 200, 300],
+        'max_depth': [10, 20, None]
+    },
+    'XGBRegressor': {
+        'learning_rate': [0.01, 0.1, 0.2],
+        'n_estimators': [100, 200]
+    }
+}
+
+**🌍 Usage**
+* Open your browser and go to http://127.0.0.1:5000.
+* Fill in the details like gender, race, parental education, and scores.
+* Click on Predict your Maths Score to get an instant result.
+
+**🤖 Future Enhancements**
+* Integrate More Models: Add additional advanced machine learning or deep learning models.
+* User Authentication: Add user login to save individual progress and predictions.
+* Improve UI/UX: Enhance the frontend design with interactive charts or graphs.
+
+**📝 License**
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🎉 Thank you for checking out this project! 🎉
+
+**Feel free to open an issue or pull request if you'd like to contribute**.
+
