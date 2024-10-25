@@ -20,7 +20,7 @@ def predict_datapoint():
         return render_template("home.html")
     else:
         data =  CustomData(
-             gender=request.form.get('gender'),
+            gender=request.form.get('gender'),
             race_ethnicity=request.form.get('ethnicity'),
             parental_level_of_education=request.form.get('parental_level_of_education'),
             lunch=request.form.get('lunch'),
