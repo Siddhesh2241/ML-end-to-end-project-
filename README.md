@@ -45,7 +45,7 @@ project_root/
 
 ![Home Page Screenshot](Images/Before.png)
 
-![Prediction Page](images/after.png)
+![Prediction Page](Images/after.png)
 
 **📦 Getting Started**
 
@@ -70,7 +70,7 @@ project_root/
 Run model training with hyperparameter tuning by configuring parameters in train_pipeline.py. This setup uses multiple algorithms (e.g., n_estimators for Random Forest) for optimized performance.
 
 from sklearn.model_selection import GridSearchCV
-
+```bash
 param_grid = {
     'RandomForestRegressor': {
         'n_estimators': [100, 200, 300],
@@ -81,6 +81,7 @@ param_grid = {
         'n_estimators': [100, 200]
     }
 }
+```
 
 **🌍 Usage**
 * Open your browser and go to http://127.0.0.1:5000.
