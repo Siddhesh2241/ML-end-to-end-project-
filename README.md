@@ -11,22 +11,23 @@ This project is a full End-to-End Machine Learning Web Application that predicts
 **🗂️ Project Structure**
 
 project_root/
-|__ set.py                  # Information about other and project Libraries
-├── app.py                  # Main Flask application
-├── requirements.txt        # Dependencies
-├── Dockerfile              # Docker setup for the app
-├── src/                    # Core code folder
-│   ├── components/         # Data ingestion, transformation, and training
-│   ├── pipeline/           # Prediction and training pipelines
-│   ├── utils.py            # Utility functions
-│   ├── logger.py           # Logging configuration
-│   └── exception.py        # Exception handling
-├── templates/              # HTML templates
-│   ├── index.html
+├── set.py                     # Information about other and project libraries
+├── app.py                     # Main Flask application
+├── requirements.txt           # Dependencies
+├── Dockerfile                 # Docker setup for the app
+├── src/                       # Core code folder
+│   ├── components/            # Data ingestion, transformation, and training
+│   ├── pipeline/              # Prediction and training pipelines
+│   ├── utils.py               # Utility functions
+│   ├── logger.py              # Logging configuration
+│   └── exception.py           # Exception handling
+├── templates/                 # HTML templates
+│   ├── index.html             
 │   └── home.html
-└── static/                 # Static files (CSS, JS)
+└── static/                    # Static files (CSS, JS)
     └── css/
-        └── styles.css      # Styling for the app
+        └── styles.css         # Styling for the app
+
 
 **🚀 Features**
 
