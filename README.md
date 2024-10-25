@@ -9,7 +9,7 @@ Predicting student performance based on demographic and preparatory factors usin
 This project is a full End-to-End Machine Learning Web Application that predicts a student's math exam score based on inputs like gender, parental education, test preparation, and more. The application provides a seamless interface for users to enter information and receive predictions for academic performance in real-time.
 
 **🗂️ Project Structure**
-
+```bash
 project_root/
 ├── set.py                     # Information about other and project libraries
 ├── app.py                     # Main Flask application
@@ -27,7 +27,7 @@ project_root/
 └── static/                    # Static files (CSS, JS)
     └── css/
         └── styles.css         # Styling for the app
-
+```
 
 **🚀 Features**
 
