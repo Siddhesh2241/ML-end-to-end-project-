@@ -68,9 +68,9 @@ project_root/
 **🎛️ Model Training and Hyperparameter Tuning**
 
 Run model training with hyperparameter tuning by configuring parameters in train_pipeline.py. This setup uses multiple algorithms (e.g., n_estimators for Random Forest) for optimized performance.
-
-from sklearn.model_selection import GridSearchCV
 ```bash
+from sklearn.model_selection import GridSearchCV
+
 param_grid = {
     'RandomForestRegressor': {
         'n_estimators': [100, 200, 300],
