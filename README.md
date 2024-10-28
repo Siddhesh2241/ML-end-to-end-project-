@@ -11,22 +11,26 @@ This project is a full End-to-End Machine Learning Web Application that predicts
 **🗂️ Project Structure**
 ```bash
 project_root/
-├── set.py                     # Information about other and project libraries
-├── app.py                     # Main Flask application
-├── requirements.txt           # Dependencies
-├── Dockerfile                 # Docker setup for the app
-├── src/                       # Core code folder
-│   ├── components/            # Data ingestion, transformation, and training
-│   ├── pipeline/              # Prediction and training pipelines
-│   ├── utils.py               # Utility functions
-│   ├── logger.py              # Logging configuration
-│   └── exception.py           # Exception handling
-├── templates/                 # HTML templates
-│   ├── index.html             
+├── set.py                    # Information about other and project libraries
+├── app.py                    # Main Flask application
+├── requirements.txt          # Dependencies
+├── Dockerfile                # Docker setup for the app
+├── src/                      # Core code folder
+│   ├── components/           # Data ingestion, transformation, and training
+│   ├── pipeline/             # Prediction and training pipelines
+│   ├── utils.py              # Utility functions
+│   ├── logger.py             # Logging configuration
+│   └── exception.py          # Exception handling
+├── templates/                # HTML templates
+│   ├── index.html
 │   └── home.html
-└── static/                    # Static files (CSS, JS)
-    └── css/
-        └── styles.css         # Styling for the app
+├── static/                   # Static files (CSS, JS)
+│   └── css/
+│       └── styles.css        # Styling for the app
+└── config/                   # Configuration files
+    ├── __init__.py           # Package initializer
+    ├── database_conn.py      # Database connection setup
+    └── Insert_data.py        # Function to insert student data into the database
 ```
 
 **🚀 Features**
@@ -56,7 +60,7 @@ project_root/
 **Installation**
 
 * 1) Clone the repo:
-      git clone https://github.com/yourusername/student-performance-prediction.git
+      git clone https://github.com/Siddhesh2241/student-performance-prediction.git
       cd student-performance-prediction
 
 * 2) Install dependencies:
