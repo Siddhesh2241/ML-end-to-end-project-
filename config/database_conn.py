@@ -13,9 +13,9 @@ def Create_connection():
         connection = mysql.connector.connect(
             host = "127.0.0.1",
             port = "3306",
-            username = "Username",
-            password = "Your_password",
-            database = "Database_name "
+            username = "root",
+            password = "",
+            database = "student "
         )
 
         logging.info("DataBase connected succesfully")
