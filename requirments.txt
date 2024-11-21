@@ -5,7 +5,7 @@ matplotlib
 scikit-learn
 catboost
 xgboost
-dill
-pickle
 flask
-#-e .
+-e .
+gunicorn
+mysql.connector
